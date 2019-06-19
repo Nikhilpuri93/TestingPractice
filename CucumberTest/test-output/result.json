@@ -1,0 +1,230 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 470123497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BookShoppingBaseStepDefinition.beforeExecutingScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login and place an order through shop option",
+        "description": "",
+        "id": "login-into-the-automation-practice-site-and-place-an-order-for-a-book-through-shop-option;login-and-place-an-order-through-shop-option",
+        "after": [
+          {
+            "result": {
+              "duration": 610459820,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BookShoppingBaseStepDefinition.afterExecutingScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18199528721,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the automation practice site url",
+            "match": {
+              "location": "BookShoppingLoginStepDefinition.user_opens_the_automation_practice_site_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9815409178,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on My Account option",
+            "match": {
+              "location": "BookShoppingMyAccountStepDefinitions.click_on_My_Account_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1134583001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter username And password",
+            "match": {
+              "location": "BookShoppingLoginStepDefinition.enter_username_And_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7105760117,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login button",
+            "match": {
+              "location": "BookShoppingLoginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62550744,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the logged in username",
+            "match": {
+              "location": "BookShoppingMyAccountStepDefinitions.verify_the_logged_in_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5751854717,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on shop option",
+            "match": {
+              "location": "BookShoppingShopStepDefinition.click_on_shop_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209024392,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "add HTML5 Forms to basket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 8
+                }
+              ],
+              "location": "BookShoppingShopStepDefinition.add_HTML_Forms_to_basket(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5647188567,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on view basket",
+            "match": {
+              "location": "BookShoppingShopStepDefinition.click_on_view_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5340031032,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on proceed to checkout",
+            "match": {
+              "location": "BookShoppingBasketStepDefintion.click_on_proceed_to_checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2359590770,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "fill billing details",
+            "match": {
+              "location": "BookShoppingUserCheckOutStepDefinition.fill_billing_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176180624,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#And select Direct Bank Transfer option"
+              }
+            ],
+            "line": 16,
+            "name": "click on Place Order button",
+            "match": {
+              "location": "BookShoppingUserCheckOutStepDefinition.click_on_Place_Order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5747403113,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify thank you message",
+            "match": {
+              "location": "BookShoppingOrderReceivedStepDefinitions.verify_thank_you_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38994896,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "print the order number",
+            "match": {
+              "location": "BookShoppingOrderReceivedStepDefinitions.print_the_order_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10723794178,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "logout from the application",
+            "match": {
+              "location": "BookShoppingLogoutStepDefinition.logout_from_the_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@shop"
+          }
+        ]
+      }
+    ],
+    "name": "Login into the automation practice site and place an order for a book through shop option",
+    "description": "",
+    "id": "login-into-the-automation-practice-site-and-place-an-order-for-a-book-through-shop-option",
+    "keyword": "Feature",
+    "uri": "BookShoppingOrderConfirmation.feature"
+  }
+]

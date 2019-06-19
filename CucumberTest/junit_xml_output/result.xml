@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="73.392477">
+<testcase classname="Login into the automation practice site and place an order for a book through shop option" name="Login and place an order through shop option" time="73.392477">
+<system-out><![CDATA[Given User opens the automation practice site url...........................passed
+Then Click on My Account option.............................................passed
+Then enter username And password............................................passed
+And click on login button...................................................passed
+Then verify the logged in username..........................................passed
+Then click on shop option...................................................passed
+And add HTML5 Forms to basket...............................................passed
+Then click on view basket...................................................passed
+Then click on proceed to checkout...........................................passed
+Then fill billing details...................................................passed
+And click on Place Order button.............................................passed
+Then verify thank you message...............................................passed
+And print the order number..................................................passed
+And logout from the application.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
